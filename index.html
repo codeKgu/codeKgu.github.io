@@ -5,13 +5,257 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Ken Gu, UCLA, computer science, engineer">
+
+        
         <title>Ken Gu</title>
+        <!-- bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    </head>
-    <body style="text-align: center;">
-        <h1>Welcome!</h1>
-       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- my CSS file-->
+        <link href="style.css" rel="stylesheet"> 
+        <!-- fonts--> 
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Cabin|Raleway|Indie+Flower|Rubik+Mono+One" rel="stylesheet">
+        <!-- socicons--> 
+        <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?1b9vmg">
+
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src ="/node_modules/bootstrap/js/smoothscroll.js"></script>
+        <script src="node_modules/bootstrap/dist/js/index.js"></script>
+             
+        <!-- favicon -->     
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+
+    </head>
+    
+    <body style="text-align: center;">
+        <!--navbar--> 
+        <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid" id = "navbar">
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top" style = "font-family: 'Indie Flower', cursive; font-size: 25px; margin: 0;">KG</a>
+                </div>
+            
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a href="#aboutMe">
+                          <span>ABOUT</span> 
+                        </a></li>
+                        <li><a href="#education">
+                          <span>EDUCATION</span>
+                        </a></li>
+                        <li><a href="#projects">
+                          <span>PROJECTS</span>
+                        </a></li>
+                        <li><a href="#contact">
+                          <span >CONTACT</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!--main page-->
+        <div class="jumbotron text-center">
+            <h1>Ken Gu</h1> 
+            <h4 style = "color: #FFFFFF;">Engineer</h4>
+            <h4 style = "color: #FFFFFF;">Basketball Maniac<h4>
+        </div>           
+        
+        
+        <!--about me-->
+        <div class="container-fluid">
+            <div class = "container" id = "aboutMe">
+                <div class="col-md-1"></div>
+                <div class= "col-md-5" style = "text-align: left">
+                    <hr class = "section-heading-spacer"></hr><br>
+                    <h2 >ABOUT ME</h2>
+                    <p>Hey there, my name is <b>Ken</b> and I am a 19 year old from <b>Vancouver, Canada</b> currently studying <b>Computer Science and Engineering</b> at the <b>UCLA</b>. My passions are basketball, going to the gym, and programming of any kind because well, it is extremely fun. I believe technology does its best job enhancing our lives when the software works cohesively with the hardware. Thus, an academic interest of mine is also electrical circuits. </p> <br>
+                    <a class="button" href="/assets/documents/kevin-pei-resume-public.pdf" target="_blank">RESUME</a>
+                </div>
+                <div class="col-md-5">
+                    <figure class="figure">
+                        <img src="img/me.jpg" class = "figure-img img-responsive img-rounded center-block" style="padding-top: 25px;">
+                        <figcaption class="figure-caption"><p style= "text-align: center;">Me with Lonzo Ball</p></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        
+        <!-- Education-->
+        <div class = "background-silver">
+            <div class="container-fluid">
+                <div class = "container" id = "education">
+                    <hr class = "section-heading-spacer"  style = "border-top: 3px solid #FFFFFF; position: relative;" ></hr>
+                    <h2 style = "text-align: center">EDUCATION</h2>
+                    
+                    <div class = "row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4" style = "text-align: left;">
+                            <h4 >UCLA</h4>
+                            <p>Los Angeles, California</p>
+                            <p><span class = "glyphicon glyphicon-time"></span> Sept 2016 - June 2020</p>
+                        </div>
+                        <div class= "col-md-4" style = "text-align: left;">
+                            <h4>Bachelors in Electrical Engineering</h4>
+                            <p>Cumulative GPA: 3.91</p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                       
+                    <div class = "row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4" style = "text-align: left;">
+                            <h4 >Seaquam Secondary</h4>
+                            <p>Delta, British Columbia</p>
+                            <p><span class = "glyphicon glyphicon-time"></span> Sept 2011 - June 2016</p>
+                        </div>
+                        <div class= "col-md-4" style = "text-align: left;">
+                            <h4>International Baccalaureate Diploma</h4>
+                            <p>IB Diploma Score: 40/45</p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- projects-->
+        <div class="container-fluid">
+            <div class = "container" id = "projects">
+                <div class= "row">
+                    <div class = "col-lg-4"></div>
+                    <div class = "col-lg-4">
+                        <hr class = "section-heading-spacer" style="position: relative;" align="center"></hr>
+                        <h2>MY PROJECTS</h2></div>
+                    <div class = "col-lg-4"></div>
+                </div>
+                
+                <div class="container-fluid background-white" style = "padding-top: 15px;">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style = "padding-top: 25px;">
+                        <a href="#myGallery" data-slide-to="0">
+                            <figure class="caption">
+                                <img id =proj class ="img-rounded" src="/img/dartboard.jpg">
+                            </figure>
+                            <h4>Dartboard Travel WebApp</h4>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style = "padding-top: 25px;">
+                        <a href="#myGallery" data-slide-to="1">
+                            <figure class="caption">
+                                <img id = proj class ="img-rounded" src="/img/wth.jpg">
+                            </figure>
+                            <h4>School Event-Planner WebApp</h4>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style = "padding-top: 25px;">
+                        <a href="#myGallery" data-slide-to="2">
+                            <figure class="caption">
+                                <img id = proj class ="img-rounded" src="/img/speller.jpg">
+                            </figure>
+                            <h4>C Spellchecker</h4>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style = "padding-top: 25px;">
+                        <a href="#myGallery" data-slide-to="3">
+                            <figure class="caption">
+                                <img id = proj  class ="img-rounded" src="/img/personal_website.jpg">
+                            </figure>
+                            <h4>Personal Website</h4>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style = "padding-top: 25px;"></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style = "padding-top: 25px;"></div>
+                </div>
+            </div>
+            <!--begin modal window-->
+            <div class="modal fade" id="myModal"><br><br><br>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                        <!--begin carousel-->
+                            <div id="myGallery" class="carousel slide" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="item active"> <img id= "description_img" src="/img/dartboard.jpg" alt="item0">
+                                        <div class="carousel-caption">
+                                            <h3>Dartboard</h3>
+                                            <p>A website that aims to generate your ideal trip made especially based on user inputted place and time equipped with links to Bing Maps directions and Yelp reviews for each event of the trip.</p>
+                                            <p>Built with: Flask, Bootstrap, Jinja2, jQuery, Bing Maps API and Yelp API, HTML/CSS.</p>
+                                            <h4>LA Hacks 2017</h4>
+                                            <a href="https://www.devpost.com/software/dartboard" style="display:inline;"> <img src= "img/devpost.png" style="max-height: 45px;"></img></a>
+                                            <a href= "https://www.github.com/codeKgu/dartboard" style="display:inline;"><img src= "img/github.png" style="max-height: 45px;"></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="item"> <img id= "description_img" src="/img/wth.jpg" alt="item1">
+                                        <div class="carousel-caption">
+                                            <h3>What The Happening</h3>
+                                            <p>A web app integrated with google maps that allow users to both input events (time, description, map location) into the database and see all the events other users' have inputted.  </p>
+                                            <p>Built with: angular.js, bootstrap, sqlite3, node.js, HTML/CSS</p>
+                                            <h4>2nd Place, Hack on the Hill</h4>
+                                            <a href="https://www.devpost.com/software/what-the-happening" style="display:inline;"> <img src= "img/devpost.png" style="max-height: 45px;"></img></a>
+                                            <a href= "https://www.github.com/codeKgu/What-The-Happening-" style="display:inline;"><img src= "img/github.png" style="max-height: 45px;"></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="item"> <img id = "description_img" src="/img/speller.jpg">
+                                        <div class="carousel-caption">
+                                            <h3>Commandline Spellchecker Program</h3>
+                                            <p>Implemented a trie data structure to store a dictionary of words from disk into dynamically allocated memory which then spell-checks a given file by searching through the trie and outputs to the user the misspelled words. </p>
+                                            <p>Built with: C</p>
+                                            <a href="https://www.github.com/codeKgu/SpellChecker"> <img src= "img/github.png" style="max-height: 45px;"></img></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="item"> <img id = "description_img" src="/img/personal_website.jpg">
+                                        <div class="carousel-caption">
+                                            <h3>Personal Website</h3>
+                                            <p>A place for showing my projects and information in more detail. I built this website from scratch while significantly learning HTML/CSS and Bootsrap along the way. </p>
+                                            <p>Built with: Bootstrap, HTML/CSS</p>
+                                            <a href="https://www.github.com/codeKgu/codeKgu.github.io"> <img src= "img/github.png" style="max-height: 45px;"></img></a>
+                                        </div>
+                                    </div>
+                                <!--Begin Previous and Next buttons-->
+                                    <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class = "background-footer">
+            <div class = "container" id = "contact" >
+                <h2 style = "text-align: center; color: #FFFFFF; font-size: 35px;">GET IN TOUCH</h2>
+                <h4 style = "color: #FFFFFF;">Interested? Connect with me now!</h4>
+                <ul class=" soc" style= "padding-bottom: 15px"> 
+                    <li><a  href="https://www.facebook.com/ken.gu.7" ><span class="socicon-facebook"></span></a></li>  
+                    <li><a  href="https://www.linkedin.com/in/ken-gu/"> <span class="socicon-linkedin"></span></a></li>
+                    <li><a  href="https://www.github.com/codeKgu"><span class="socicon-github soc-icon-last"></span></a></li>
+                </ul>
+                
+                <div class = "row">
+                    <h5  class = "soc">Email: </h5> 
+                    <a href = "mailto:ken.qgu@gmail.com"> <h5>ken.qgu@gmail.com</h5></a>
+                <div>
+                <div class = "row">
+                    <h5  class = "soc" >Devpost: </h5> 
+                    <a href = "https://devpost.com/kengu13"> <h5>http://devpost.com/kengu13</h5></a>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>
