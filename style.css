@@ -236,10 +236,6 @@ p {
 .carousel-caption{
     color: #333;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> updated resume and mobile project viewing
 .caption {
     position: relative;
     overflow: hidden;
@@ -277,10 +273,6 @@ p {
     margin-right: 10px;
     margin-left: 10px;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> updated resume and mobile project viewing
 }
 @media (min-width: 920px){
   .modal-lg {
@@ -289,14 +281,11 @@ p {
   }
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 650px){
     .carousel-caption{
         position: static;
     }
 }
->>>>>>> updated resume and mobile project viewing
 
 /* socicons*/
 @font-face {
