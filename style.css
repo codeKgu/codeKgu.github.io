@@ -134,7 +134,7 @@ p {
 
 .jumbotron { 
     
-    background-image: url('/img/basketball.jpg');
+    background-image: url('img/basketball.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
