@@ -101,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "kengu13@ucla.edu"
+      url: "mailto:kengu13@ucla.edu"
     - label: "Personal Website"
       icon: "fas fa-fw fa-link"
       url: "https://kenqgu.com"
