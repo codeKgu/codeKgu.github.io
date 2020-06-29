@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-	image: /images/ucla.jpg
+  image: /images/ucla.jpg
 ---
 
 
