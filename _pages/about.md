@@ -2,10 +2,9 @@
 title: "About"
 permalink: /about/
 header:
-	image: "/images/ucla.jpg"
-
+	image: /images/ucla.jpg
 ---
-## About Me
+
 
 Hi! I am a fresh graduate of University of California, Los Angeles where I studied Computer Science. I grew up in North Delta and graduated from the IB program at Seaquam Secondary. Over the course of my education, I realized the immense opportunities that a solid foundation in mathematics can bring and have a strong passion for teaching math. 
 
